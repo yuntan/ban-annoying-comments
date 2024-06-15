@@ -1,0 +1,21 @@
+{
+  "name": "ban-annoying-comments",
+  "version": "0.2.0",
+  "description": "ニコニコ動画（Re:仮）のうっとうしいコメントをなんとかする拡張",
+  "scripts": {
+    "pack": "rm -f ext.zip && zip -r ext.zip _locales icons src LICENSE manifest.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuntan/ban-annoying-comments.git"
+  },
+  "author": "Yuto Tokunaga <contact@yuntan.tech>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuntan/ban-annoying-comments/issues"
+  },
+  "homepage": "https://github.com/yuntan/ban-annoying-comments#readme",
+  "devDependencies": {
+    "@types/chrome": "^0.0.268"
+  }
+}
